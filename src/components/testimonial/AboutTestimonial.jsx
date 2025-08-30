@@ -1,5 +1,7 @@
 import { FreeMode, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import AboutTestimonialImage from "../../../public/assets/imgs/testimonial/1/about_testimonial_img1.jpg";
+import Image from "next/image";
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,9 +19,17 @@ const AboutTestimonial = () => {
           <div className="row g-0">
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="testimonial__video">
-                <video autoPlay muted loop>
+                <Image
+                  priority
+                  width={300}
+                  style={{ height: "auto" }}
+                  src={AboutTestimonialImage}
+                  alt="Story Thumbnail"
+                  className="w-100"
+                />
+                {/* <video autoPlay muted loop>
                   <source src="assets/video/testimonial.mp4" type="video/mp4" />
-                </video>
+                </video> */}
               </div>
             </div>
 
@@ -42,17 +52,17 @@ const AboutTestimonial = () => {
                       <div className="testimonial__slide">
                         <div className="testimonial__inner-2">
                           <h2 className="testimonial__title-2">
-                            Amazing digital service
+                            L’entrepreneuriat m’a appris que la croissance digitale commence par les personnes.
                           </h2>
                           <p className="testimonial__text-2">
-                            We were there right at the beginning just when the
-                            concept for search engine optimisation taking office
-                            and the full of internet. So wewe’ve grown to employ
-                            than 50 talented specialists with diverse
-                            experiences and broad skill sets of huge markers.
+                            Mon parcours a toujours été guidé par le contact humain. J’ai appris que, 
+                            derrière chaque projet digital, il y a avant tout une relation de confiance 
+                            à construire avec les clients. Convaincu que le digital et l’innovation sont l’avenir, 
+                            je les utilise comme des leviers au service d’une chose essentielle : comprendre les besoins des 
+                            entreprises et y répondre avec authenticité et impact.
                           </p>
-                          <h3 className="testimonial__author">Adam Syndera</h3>
-                          <h4 className="testimonial__role">CEO, Agency</h4>
+                          <h3 className="testimonial__author">Théo Kuhn</h3>
+                          <h4 className="testimonial__role">Co-fondateur, Propulso digital</h4>
                         </div>
                       </div>
                     </SwiperSlide>

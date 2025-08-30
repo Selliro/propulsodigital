@@ -1,6 +1,7 @@
 import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
 import ServiceHero from "@/components/hero/ServiceHero";
+import DigitalAgencyService from "@/components/service/DigitalAgencyService";
 import Service1 from "@/components/service/Service1";
 import ServiceBrand from "@/components/brand/ServiceBrand";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
@@ -14,11 +15,12 @@ const Service = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout header="header3" footer="footer3">
-          <ServiceHero />
-          <Service1 />
+        <RootLayout header="header3" footer="footer2" defaultMode="dark">
+          {/* <ServiceHero /> */}
+          <DigitalAgencyService />
+          {/* <Service1 /> */}
           <ServiceBrand />
-          <DigitalAgencyCTA />
+          {/* <DigitalAgencyCTA /> */}
         </RootLayout>
       </main>
     </>

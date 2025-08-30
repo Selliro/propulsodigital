@@ -17,14 +17,14 @@ const About = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout>
+        <RootLayout header="header3" footer="footer2" defaultMode="dark">
           <AboutHero />
           <AboutStory />
-          <AboutCounter />
-          <AboutTeam />
-          <DigitalAgencyBrand />
           <AboutTestimonial />
-          <DigitalAgencyCTA />
+          <AboutCounter />
+          {/* <AboutTeam />
+          <DigitalAgencyBrand />
+          <DigitalAgencyCTA /> */}
         </RootLayout>
       </main>
     </div>

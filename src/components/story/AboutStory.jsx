@@ -1,7 +1,7 @@
-import Story1 from "../../../public/assets/imgs/story/1.jpg";
-import Story2 from "../../../public/assets/imgs/story/2.jpg";
-import Story3 from "../../../public/assets/imgs/story/3.jpg";
-import Story4 from "../../../public/assets/imgs/story/4.jpg";
+import Story1 from "../../../public/assets/imgs/story/about_story_img1.jpg";
+import Story2 from "../../../public/assets/imgs/story/about_story_img2.jpg";
+import Story3 from "../../../public/assets/imgs/story/about_story_img3.jpg";
+import Story4 from "../../../public/assets/imgs/story/about_story_img4.jpg";
 import Image from "next/image";
 
 const AboutStory = () => {
@@ -11,35 +11,21 @@ const AboutStory = () => {
         <div className="container g-0 line pt-140">
           <span className="line-3"></span>
           <div className="sec-title-wrapper">
-            <div className="from-text">
+            {/* <div className="from-text">
               from <span>1990</span>
-            </div>
+            </div> */}
 
             <div className="row">
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                <h2 className="sec-sub-title title-anim">Digital Studio</h2>
-                <h3 className="sec-title title-anim">Our story</h3>
+                <h2 className="sec-sub-title title-anim">Partenaire digital</h2>
+                <h3 className="sec-title title-anim">Notre histoire</h3>
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                 <div className="story__text">
                   <p>
-                    Your brand is the most important asset in your company let
-                    our team of professionals help you with a good strategy took
-                    the runway next with an edgy collection featuring dyed denim
-                    pieces. The collection included patchwork denim, a trend
-                    that has recently exploded in younger generations. Playing
-                    on aspects of sustainability, the pieces appeared to be
-                    upcycled to establish dimension and flair. This take on
-                    grunge and streetwear took sustainable fashion to an
-                    entirely new level.
-                  </p>
-                  <p>
-                    ur specialized team of researchers, strategists, designers,
-                    developers, and project managers work with streamlined
-                    processes to break through organizational roadblocks. We
-                    translate research into solutions, crafting thoughtful and
-                    unified brands.
-                  </p>
+                    Passionnés par le digital, l'innovation et l'entrepreneuriat, nous avons à cœur de propulser les marques suisses vers l'excellence. Notre approche ? Créer des solutions sur-mesure qui font vraiment la différence.
+                    Réflexion créative, session de travail, conversation spontanée, nous adorons plonger dans votre projet et saisir ce qui vous anime vraiment. C'est en comprenant votre essence que nous construisons votre excellence digitale.
+                  </p>                
                 </div>
               </div>
             </div>
@@ -81,7 +67,7 @@ const AboutStory = () => {
                 <Image
                   priority
                   width={410}
-                  style={{ height: "auto" }}
+                  style={{ height: "320px", width:"100%", objectFit: "cover" }}
                   src={Story4}
                   alt="Story Thumbnail"
                 />

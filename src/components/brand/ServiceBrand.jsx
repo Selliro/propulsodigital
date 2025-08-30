@@ -1,12 +1,14 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/brand/1.png";
-import Brand2 from "../../../public/assets/imgs/brand/2.png";
-import Brand3 from "../../../public/assets/imgs/brand/3.png";
-import Brand4 from "../../../public/assets/imgs/brand/4.png";
-import Brand5 from "../../../public/assets/imgs/brand/5.png";
-import Brand6 from "../../../public/assets/imgs/brand/6.png";
+import Brand1 from "../../../public/assets/imgs/brand/brand_img_1.png"; 
+import Brand2 from "../../../public/assets/imgs/brand/brand_img_2.png";
+import Brand3 from "../../../public/assets/imgs/brand/brand_img_3.png";
+import Brand4 from "../../../public/assets/imgs/brand/brand_img_4.png";
+import Brand5 from "../../../public/assets/imgs/brand/brand_img_5.png";
+import Brand6 from "../../../public/assets/imgs/brand/brand_img_6.png";
+import Brand7 from "../../../public/assets/imgs/brand/brand_img_7.png";
+import Brand8 from "../../../public/assets/imgs/brand/brand_img_8.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -58,17 +60,25 @@ const ServiceBrand = () => {
     <>
       <section className="brand__area">
         <div
-          className="container line pt-140 pb-100"
+          className="container g-0 line pt-140 pb-100"
           style={{ paddingBottom: "100px" }}
         >
           <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-12">
-              <h2 className="brand__title-3 title-anim">
+              <div className="sec-title-wrapper">
+                <h2 className="sec-sub-title title-anim">Chaque projet, une nouvelle réussite</h2>
+                <h3 className="sec-title title-anim">
+                  Nous sommes fiers de travailler avec des <br/> entreprises ambitieuses de tous secteurs
+                </h3>
+              </div>
+            </div>
+            <div className="col-xxl-12">
+              {/* <h2 className="brand__title-3 title-anim">
                 We are happy to work with global largest brands
-              </h2>
-              <div className="brand__list brand-gap">
-                <div className="brand__item-2 fade_bottom">
+              </h2> */}
+              <div className="brand__list">
+                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={97}
@@ -77,7 +87,7 @@ const ServiceBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item-2 fade_bottom">
+                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={85}
@@ -86,7 +96,7 @@ const ServiceBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item-2 fade_bottom">
+                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={114}
@@ -95,7 +105,7 @@ const ServiceBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item-2 fade_bottom">
+                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={82}
@@ -104,7 +114,7 @@ const ServiceBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item-2 fade_bottom">
+                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={115}
@@ -113,12 +123,30 @@ const ServiceBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item-2 fade_bottom">
+                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={121}
                     height={63}
                     src={Brand6}
+                    alt="Brand Logo"
+                  />
+                </div>
+                <div className="brand__item fade_bottom">
+                  <Image
+                    priority
+                    width={121}
+                    height={63}
+                    src={Brand7}
+                    alt="Brand Logo"
+                  />
+                </div>
+                <div className="brand__item fade_bottom">
+                  <Image
+                    priority
+                    width={121}
+                    height={63}
+                    src={Brand8}
                     alt="Brand Logo"
                   />
                 </div>

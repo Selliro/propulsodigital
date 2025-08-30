@@ -70,37 +70,35 @@ const AboutCounter = () => {
             <div className="col-xxl-12">
               <div className="counter__wrapper-2 counter_animation">
                 <div className="counter__item-2 counter__anim">
-                  <h2 className="counter__number count1">25k</h2>
+                  <h2 className="counter__number count1">10+</h2>
                   <p>
-                    Project <br />
-                    completed
+                    Projets <br />
+                    en cours
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item-2 counter__anim">
-                  <h2 className="counter__number count2">8k</h2>
+                  <h2 className="counter__number count2">6+</h2>
                   <p>
-                    Happy <br />
-                    customers
+                    Industries 
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item-2 counter__anim">
-                  <h2 className="counter__number count3">15</h2>
+                  <h2 className="counter__number count3">98%</h2>
                   <p>
-                    Years <br />
-                    experiences
+                    Satisfaction client
                   </p>
                   <span className="counter__border"></span>
                 </div>
-                <div className="counter__item-2 counter__anim">
+                {/* <div className="counter__item-2 counter__anim">
                   <h2 className="counter__number count4">98</h2>
                   <p>
                     Awards <br />
                     achievement
                   </p>
                   <span className="counter__border"></span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

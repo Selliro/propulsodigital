@@ -941,7 +941,7 @@
     overflow: hidden;
 
     &-content {
-      padding-top: 170px;
+      padding-top: 120px;
 
       @media #{$sm} {
         padding-top: 250px;
@@ -949,6 +949,7 @@
 
       .hero-title {
         padding-bottom: 60px;
+        margin-bottom: 60px;
 
         @media #{$sm} {
           padding-bottom: 30px;
@@ -1042,7 +1043,7 @@
       height: 800px;
 
       @media #{$xxl} {
-        height: 700px;
+        height: 598px;
       }
 
       @media #{$xl} {

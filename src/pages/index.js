@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 const Index = () => {
   const router = useRouter();
   useEffect(() => {
-    router.push("/digital-agency-dark");
+    router.push("/home");
   }, [router]);
   return <div></div>;
 };
