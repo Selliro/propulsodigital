@@ -3,16 +3,16 @@ import RootLayout from "@/components/common/layout/RootLayout";
 import Faq1 from "@/components/faq/Faq1";
 import FaqCTA from "@/components/cta/FaqCTA";
 
-const Faq = () => {
+const FaqDark = () => {
   return (
     <>
       <Head>
-        <title>Faq</title>
-        <meta name="description" content="Faq Description" />
+        <title>Faq Dark</title>
+        <meta name="description" content="Faq Dark Description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout header="header3" footer="footer3">
+        <RootLayout header="header3" footer="footer2" defaultMode="dark">
           <Faq1 />
           <FaqCTA />
         </RootLayout>
@@ -21,4 +21,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default FaqDark;

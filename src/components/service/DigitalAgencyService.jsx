@@ -253,7 +253,7 @@ const DigitalAgencyService = () => {
               <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                 <div className="service__list" ref={serviceList}>
                   <Link
-                    href="/service-details"
+                    href="/strategy-branding"
                     className={activeList == 1 ? "active" : ""}
                     data-service="1"
                   >
