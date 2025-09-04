@@ -1,11 +1,19 @@
 import { useEffect, useRef } from "react";
-import ThumbDev1 from "../../../public/assets/imgs/thumb/dev-1.jpg";
-import ThumbDev2 from "../../../public/assets/imgs/thumb/dev-2.jpg";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
 
-const ServiceDetailsDevelopment = ({ service }) => {
+const ServiceDetailsDevelopment = ({ service, images }) => {
   const charAnim = useRef();
+  
+  // Default images if none provided
+  const defaultImages = [
+    "/assets/imgs/thumb/dev-1.jpg",
+    "/assets/imgs/thumb/dev-2.jpg",
+    "/assets/imgs/thumb/dev-3.jpg"
+  ];
+  
+  const developmentImages = images || defaultImages;
+  
   useEffect(() => {
     animationCharCome(charAnim.current);
   }, []);
@@ -13,7 +21,7 @@ const ServiceDetailsDevelopment = ({ service }) => {
   return (
     <>
       <section className="development__area">
-        <div className="container g-0 line pt-130 pb-150">
+        <div className="container g-0 line pt-100 pb-100">
           <div className="line-3"></div>
           <div className="row">
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
@@ -37,27 +45,30 @@ const ServiceDetailsDevelopment = ({ service }) => {
                 </ul>
               </div>
             </div>
-            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
-              <div className="development__img">
-                <Image
-                  priority
-                  style={{ width: "auto", height: "auto" }}
-                  src={ThumbDev1}
-                  alt="Development Image"
-                  data-speed="auto"
-                />
-              </div>
-            </div>
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <div className="development__img">
-                <Image
-                  priority
-                  style={{ width: "auto", height: "auto" }}
-                  src={ThumbDev2}
-                  alt="Development Image"
-                />
-              </div>
-            </div>
+            
+            {/* Dynamic image rendering */}
+            {developmentImages.map((image, index) => {
+              // Define column classes based on index
+              let colClass = "col-xxl-3 col-xl-3 col-lg-3 col-md-3";
+              if (index === 1) {
+                colClass = "col-xxl-6 col-xl-6 col-lg-6 col-md-6";
+              }
+              
+              return (
+                <div key={index} className={colClass}>
+                  <div className="development__img">
+                    <Image
+                      priority
+                      width={500}
+                      height={300}
+                      src={image}
+                      alt={`Development Image ${index + 1}`}
+                      data-speed={index === 1 ? "auto" : null}
+                    />
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

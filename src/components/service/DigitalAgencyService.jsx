@@ -281,7 +281,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/sites-internet"
                     className={activeList == 2 ? "active" : ""}
                     data-service="2"
                   >
@@ -309,7 +309,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/email-marketing"
                     className={activeList == 3 ? "active" : ""}
                     data-service="3"
                   >
@@ -337,7 +337,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/natural-referencing"
                     className={activeList == 4 ? "active" : ""}
                     data-service="4"
                   >
@@ -365,7 +365,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/social-media-advertising"
                     className={activeList == 5 ? "active" : ""}
                     data-service="5"
                   >

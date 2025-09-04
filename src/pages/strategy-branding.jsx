@@ -3,6 +3,7 @@ import RootLayout from '@/components/common/layout/RootLayout';
 import ServiceDetailsDevelopment from '@/components/development/ServiceDetailsDevelopment';
 import ServiceDetailsWorkflow from '@/components/workflow/ServiceDetailsWorkflow';
 import ServiceDetailsService from '@/components/service/ServiceDetailsService';
+import ServiceDetailsAlternatingLayout from '@/components/development/ServiceDetailsAlternatingLayout';
 import ServiceDetailsFaq from '@/components/faq/ServiceDetailsFaq';
 import DigitalAgencyCTA from '@/components/cta/DigitalAgencyCTA';
 
@@ -51,7 +52,33 @@ const serviceData = {
         "Quand créativité et stratégie ne font qu'un, votre marque se démarque et communique efficacement vos valeurs de manière cohérente sur tous les supports, créant une impression durable auprès de votre audience cible.",
         ""
       ]
-    }
+    },
+    alternatingSections: [
+      {
+          id: 1,
+          title: "Identité visuelle",
+          content: "Logo, palette de couleurs, typographies, iconographie & motifs",
+          imageUrl: "/assets/imgs/thumb/mockup_kally_kurls.jpg",
+          features: [
+            // "Personnalisé à vos objectifs",
+            // "Expérience utilisateur optimisée",
+            // "Design impactant et moderne",
+            // "Responsive et performant"
+          ]
+      },
+      {
+          id: 2,
+          title: "Design print",
+          content: "Flyers, brochures, présentations, pitch decks, roll-up, templates",
+          imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+          features: [
+            // "Modernisation complète",
+            // "Amélioration du contenu",
+            // "Design et fonctionnalités",
+            // "Performances optimisées"
+          ]
+      }      
+    ]
   }
 };
 
@@ -71,6 +98,7 @@ const StrategyBranding = () => {
           <ServiceDetailsDevelopment service={currentService} />
           <ServiceDetailsWorkflow service={currentService}/>
           <ServiceDetailsService service={currentService} />
+          <ServiceDetailsAlternatingLayout service={currentService} />
           {/* <ServiceDetailsFaq />
           <DigitalAgencyCTA /> */}
         </RootLayout>

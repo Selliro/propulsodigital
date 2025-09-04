@@ -3,8 +3,10 @@ import RootLayout from '@/components/common/layout/RootLayout';
 import ServiceDetailsDevelopment from '@/components/development/ServiceDetailsDevelopment';
 import ServiceDetailsWorkflow from '@/components/workflow/ServiceDetailsWorkflow';
 import ServiceDetailsService from '@/components/service/ServiceDetailsService';
-import ServiceDetailsFaq from '@/components/faq/ServiceDetailsFaq';
-import DigitalAgencyCTA from '@/components/cta/DigitalAgencyCTA';
+import ServiceElementV5 from "@/components/service/ServiceElementV5";
+import ServiceDetailsAlternatingLayout from '@/components/development/ServiceDetailsAlternatingLayout';
+// import ServiceDetailsFaq from '@/components/faq/ServiceDetailsFaq';
+// import DigitalAgencyCTA from '@/components/cta/DigitalAgencyCTA';
 
 // Sample service data
 const serviceData = {
@@ -51,7 +53,56 @@ const serviceData = {
         "Quand créativité et stratégie ne font qu'un, votre marque se démarque et communique efficacement vos valeurs de manière cohérente sur tous les supports, créant une impression durable auprès de votre audience cible.",
         ""
       ]
-    }
+    },
+    alternatingSections: [
+        {
+            id: 1,
+            title: "Création",
+            content: "Site web sur-mesure adapté à vos objectifs",
+            imageUrl: "/assets/imgs/thumb/mockup_kally_kurls.jpg",
+            features: [
+                "Personnalisé à vos objectifs",
+                "Expérience utilisateur optimisée",
+                "Design impactant et moderne",
+                "Responsive et performant"
+            ]
+        },
+        {
+            id: 2,
+            title: "Refonte",
+            content: "Modernisation de votre site existant",
+            imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+            features: [
+                "Modernisation complète",
+                "Amélioration du contenu",
+                "Design et fonctionnalités",
+                "Performances optimisées"
+            ]
+        },
+        {
+            id: 3,
+            title: "Migration",
+            content: "Transfert vers une nouvelle plateforme",
+            imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+            features: [
+                "Nouvelle plateforme moderne",
+                "Interruption minimale",
+                "Performances améliorées",
+                "Sécurité renforcée"
+            ]
+        },
+        {
+            id: 4,
+            title: "Optimisations",
+            content: "Optimisation basée sur les données",
+            imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+            features: [
+                "Analyse comportement utilisateur",
+                "Suivi des performances",
+                "Taux de conversion"                
+            ]
+        }
+    ]
   }
 };
 
@@ -68,11 +119,23 @@ const SitesInternet = () => {
       </Head>
       <main>
         <RootLayout header="header3" footer="footer2" defaultMode="dark">
-          <ServiceDetailsDevelopment service={currentService} />
-          <ServiceDetailsWorkflow service={currentService}/>
-          <ServiceDetailsService service={currentService} />
-          {/* <ServiceDetailsFaq />
-          <DigitalAgencyCTA /> */}
+            <ServiceDetailsDevelopment service={currentService} 
+                images={[
+                    "/assets/imgs/thumb/sites-internet-dev-1.jpg",
+                    "/assets/imgs/thumb/sites-internet-dev-2.jpg",
+                    "/assets/imgs/thumb/sites-internet-dev-3.jpg"
+                ]} 
+            />            
+            <ServiceDetailsAlternatingLayout service={currentService} />
+            <ServiceElementV5 
+                services={currentService.integrations}
+                sectionTitle="Possibilités d'intégration"
+                sectionDescription="Nous enrichissons votre site web avec des intégrations marketing avancées pour maximiser vos conversions et automatiser vos processus."
+            />
+            {/* <ServiceDetailsWorkflow service={currentService}/>
+            <ServiceDetailsService service={currentService} /> */}
+            {/* <ServiceDetailsFaq />
+            <DigitalAgencyCTA /> */}
         </RootLayout>
       </main>
     </>

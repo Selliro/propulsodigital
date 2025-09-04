@@ -10,17 +10,17 @@ const FaqCTA = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
-                  Still you have question?
+                  Encore une question?
                 </h2>
                 <p className="sub-title-anim">
-                  Well, we are packed, so no open vacancies now
+                  Notre équipe de professionnels serait ravie de vous conseiller. 
                 </p>
                 <div className="btn_wrapper">
                   <Link
                     href="/contact"
                     className="wc-btn-primary btn-hover btn-item"
                   >
-                    <span></span>Contact Us{" "}
+                    <span></span>Contactez-nous{" "}
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>

@@ -128,74 +128,73 @@ const DigitalMarketingWorkflow = () => {
             </div>
           </div>
 
-          <div className="research__area wf_panel pt-150">
+          <div className="research__area wf_panel pt-100">
             <div className="container inner_content">
               <div className="row">
-                <div className="col-xxl-6 col-xl-6 col-lg-6">
+                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                   <div className="sec-title-wrapper">
                     <h2 className="sec-sub-title">
-                      why <br />
-                      choose us
+                      Pourquoi <br/>
+                      nous choisir
                     </h2>
                     <h3 className="sec-title">
-                      Keword,Research Strategy, Survey, & Analytics
+                      EXPERTISE DIGITALE, AGILITÉ STARTUP & RÉSULTATS CONCRETs
                     </h3>
                     <p>
-                      Attention, we take out our round glasses and our sweater
-                      with elbow patches to go back to the origins of the user
-                      experience: the first mention of the user and its
-                      importance was born in the
+                      Nous ne sommes pas une agence comme les autres. 
+                      Créée en 2025, nous combinons les dernières innovations technologiques 
+                      avec l'expertise suisse pour propulser votre entreprise vers de nouveaux sommets digitaux.
                     </p>
                   </div>
                   <ul className="research__tools">
                     <li>
-                      <a href="#">Google</a>
+                      <a href="#">E-COMMERCE</a>
                     </li>
                     <li>
-                      <a href="#">pinterest</a>
+                      <a href="#">STRATÉGIE</a>
                     </li>
                     <li>
-                      <a href="#">Instagram</a>
+                      <a href="#">ADS</a>
                     </li>
                   </ul>
                 </div>
-                <div className="col-xxl-6 col-xl-6 col-lg-6">
+                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                   <div className="research__list">
                     <div className="research__item">
                       <div className="research__number">
-                        <span>60%</span>
+                        <span>100%</span>
                       </div>
                       <div className="research__info">
-                        <h4 className="research__title">Strategy</h4>
+                        <h4 className="research__title">PROJETS RÉUSSIS</h4>
                         <p>
-                          Your marketing strategy optimizing performances
-                          doesn’t have to be a guessing game.
+                          Tous nos clients recommandent nos services et font 
+                          appel à nous pour leurs nouveaux projets digitaux.
                         </p>
                       </div>
                     </div>
 
                     <div className="research__item">
                       <div className="research__number">
-                        <span>95%</span>
+                        <span>24H</span>
                       </div>
                       <div className="research__info">
-                        <h4 className="research__title">Audience</h4>
+                        <h4 className="research__title">RÉACTIVITÉ</h4>
                         <p>
-                          Your marketing strategy optimizing performances
-                          doesn’t have to be a guessing game.
+                          Délai de réponse garanti sous 24h pour 
+                          toutes vos demandes et questions urgentes.
                         </p>
                       </div>
                     </div>
 
                     <div className="research__item">
                       <div className="research__number">
-                        <span>70%</span>
+                        <span>6+</span>
                       </div>
                       <div className="research__info">
-                        <h4 className="research__title">Keyword</h4>
+                        <h4 className="research__title">INDUSTRIES</h4>
                         <p>
-                          Your marketing strategy optimizing performances
-                          doesn’t have to be a guessing game.
+                          De la beauté à l'automobile, 
+                          nous maîtrisons les spécificités de multiples industries.
                         </p>
                       </div>
                     </div>
@@ -274,7 +273,7 @@ const DigitalMarketingWorkflow = () => {
                       Have you project in mind?
                     </p>
                     <h2 className="cta__title-2">
-                      Let’s make something great together!
+                      Let's make something great together!
                     </h2>
                     <div className="btn_wrapper">
                       <Link

@@ -72,35 +72,31 @@ const DigitalAgencyCounter = () => {
                 <div className="counter__item counter__anim">
                   {/* <h2 className="counter__number count1">25k+</h2> */}
                   <p>
-                    Fresh <br/>
                     Approche <br/>
-                    2025
+                    Innovante
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item counter__anim">
                   {/* <h2 className="counter__number count2">8k+</h2> */}
                   <p>
-                    Agile <br />
-                    Méthodes <br />
-                    Startup                    
+                    Méthodes <br/>
+                    Agiles                    
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item counter__anim">
                   {/* <h2 className="counter__number count3">15</h2> */}
                   <p>
-                    Custom <br />
-                    Solutions <br />
-                    100%
+                    Solutions <br/>
+                    Sur-Mesure
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item counter__anim">
                   {/* <h2 className="counter__number count4">98</h2> */}
                   <p>
-                    Premium <br />
-                    Qualité <br />
+                    Qualité <br/>
                     Suisse
                   </p>
                   <span className="counter__border"></span>

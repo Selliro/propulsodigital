@@ -16,11 +16,12 @@ const Faq1 = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come" ref={charAnim}>
-                  FAQ
+                  Nous répondons à toutes 
+                  vos questions
                 </h2>
-                <p className="">
+                {/* <p className="">
                   Frequently asked question (FAQ) <br /> pages to find answars.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -38,7 +39,7 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingOne"
                     >
-                      Design should enrich our day
+                      Qu'est-ce que Propulso Digital ?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
@@ -63,7 +64,7 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingTwo"
                     >
-                      Bring their individual experience and creative
+                      Où êtes-vous situés ?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
@@ -88,7 +89,7 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingThree"
                     >
-                      Human centred design to challenges
+                      Quels services proposez-vous ?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
@@ -113,7 +114,7 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingFour"
                     >
-                      Design should enrich our day
+                      Qu'est-ce qu'un RDV découverte ?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">
@@ -138,7 +139,7 @@ const Faq1 = () => {
                       className="accordion-header"
                       id="headingFive"
                     >
-                      Developing core web applications
+                      Comment puis-je commencer à travailler avec Propulso Digital ?
                     </Accordion.Header>
 
                     <Accordion.Body className="accordion-body">

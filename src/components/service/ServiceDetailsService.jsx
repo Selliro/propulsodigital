@@ -1,12 +1,18 @@
-import ServiceDetail from "../../../public/assets/imgs/thumb/strategy-branding-service-banner.jpg";
 import Shape6 from "../../../public/assets/imgs/icon/shape-6.png";
 import Image from "next/image";
 
+// Default service detail image if none provided
+import DefaultServiceDetail from  "../../../public/assets/imgs/thumb/strategy-branding-service-banner.jpg";
+
 const ServiceDetailsService = ({ service }) => {
+  // Use the provided image or default to the strategy branding image
+  const serviceDetailImage = service?.serviceSection?.image || DefaultServiceDetail;
+  const imageAlt = service?.serviceSection?.imageAlt || "Service detail image";
+
   return (
     <>
       <section className="service__detail">
-        <div className="container g-0 line pb-140">
+        <div className="container g-0 line pb-100">
           <div className="line-3"></div>
           <div className="row">
             <div className="col-xxl-12">
@@ -26,17 +32,19 @@ const ServiceDetailsService = ({ service }) => {
                 <Image
                   priority
                   width={960}
+                  height={540}
+                  src={serviceDetailImage}
+                  alt={imageAlt}
                   style={{ height: "auto" }}
-                  src={ServiceDetail}
-                  alt="Service detail image"
                 />
                 <Image
                   priority
                   width={51}
-                  style={{ height: "auto" }}
+                  height={51}
                   src={Shape6}
                   alt="Service shape image"
                   className="sd-shape"
+                  style={{ height: "auto" }}
                 />
               </div>
               <div className="service__detail-content">
