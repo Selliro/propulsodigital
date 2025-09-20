@@ -4,7 +4,7 @@ import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
 import Image from "next/image";
 import About11 from "../../../public/assets/imgs/about/1/about_us_img_1.webp";
-import About12 from "../../../public/assets/imgs/about/1/about_us_img_2.jpg";
+import About12 from "../../../public/assets/imgs/about/1/about_us_img_2.webp";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 

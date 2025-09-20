@@ -77,7 +77,7 @@ export default function Footer2() {
                       info@propulsodigital.com <br/>
                       <a href="tel:+41 76 619 78 33">+41 76 619 78 33</a>                      
                     </p>
-                    <p> Lun-Ven 8:00 – 18:00</p>
+                    <p>Lun-Ven 8:00 – 18:00</p>
                   </div>
                 </div>
               </div>
@@ -119,16 +119,16 @@ export default function Footer2() {
                 <div className="footer__nav">
                   <ul className="footer-menu menu-anim" ref={menuAnim}>
                     <li>
-                      <Link href="/about">SERVICES</Link>
+                      <Link href="/service">SERVICES</Link>
                     </li>
                     <li>
-                      <Link href="/career">À PROPOS</Link>
+                      <Link href="/about">À PROPOS</Link>
                     </li>
                     <li>
                       <Link href="/contact">CONTACT</Link>
                     </li>
                     <li>
-                      <Link href="/faq">PROJETS CLEINTS</Link>
+                      <Link href="/projects">PROJETS CLEINTS</Link>
                     </li>
                   </ul>
                 </div>

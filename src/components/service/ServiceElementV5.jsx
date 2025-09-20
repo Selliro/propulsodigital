@@ -102,7 +102,7 @@ const ServiceElementV5 = ({ services, sectionTitle, sectionDescription }) => {
                       {serviceItems[1].features && (
                           <ul className="feature-list">
                             {serviceItems[1].features.map((feature, i) => (
-                              <li key={i} className="feature-item">                              
+                              <li key={i} className="feature-item">
                                 {feature}
                               </li>
                             ))}

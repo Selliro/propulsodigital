@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Canvas from "../canvas/Canvas";
 import Link from "next/link";
-import LogoWhite from "../../../public/assets/imgs/logo/site-logo-white-2.svg";
+import LogoWhite from "../../../public/assets/imgs/logo/site-logo-white.svg";
 import LogoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
 import MenuWhite from "../../../public/assets/imgs/icon/menu-white.png";
 import Image from "next/image";
@@ -52,7 +52,7 @@ export default function Header3() {
               <Image
                 priority
                 width={33}
-                height={100}
+                height={155}
                 className="logo-primary"
                 src={LogoWhite}
                 alt="Site Logo"
@@ -80,12 +80,67 @@ export default function Header3() {
           </div>
           <div className="header__support">
             <p>
-              Support center <a href="tel:+9587325902">+9 587 325 902</a>
+              <a href="https://wa.me/+41766197833">+41766197833</a> <br/> Écrivez-nous sur WhatsApp
             </p>
           </div>
         </div>
         <Canvas bladeMode={headerArea.current} ofCanvasArea={ofCanvasArea} />
       </header>
+
+      <style jsx>{`
+        .header__inner {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px 0;
+          width: 100%;
+        }
+        
+        .header__logo {
+          flex: 0 0 auto;
+        }
+        
+        .header__nav-icon {
+          flex: 0 0 20%;
+          margin: 0 20px;
+        }
+        
+        .header__support {
+          flex: 0 0 20%;
+          text-align: center;
+        }
+        
+        .header__support p {
+          margin: 0;
+          font-size: 14px;
+          line-height: 1.4;
+          text-align: center;
+        }
+        
+        .header__support a {
+          color: #fff;
+          text-decoration: none;
+          transition: opacity 0.3s ease;
+        }
+        
+        .header__support a:hover {
+          opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+          .header__inner {
+            padding: 15px 0;
+          }
+          
+          .header__support {
+            display: none;
+          }
+          
+          .header__nav-icon {
+            margin: 0 10px;
+          }
+        }
+      `}</style>
     </>
   );
 }

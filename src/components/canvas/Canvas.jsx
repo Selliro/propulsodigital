@@ -69,24 +69,24 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
             <div className="offcanvas__social">
               <h3 className="social-title">Follow Us</h3>
               <ul>
-                <li>
+                {/* <li>
                   <a href="#">Dribbble</a>
                 </li>
                 <li>
                   <a href="#">Behance</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#">Instagram</a>
                 </li>
                 <li>
                   <a href="#">Facebook</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">Twitter</a>
                 </li>
                 <li>
                   <a href="#">YouTube</a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="offcanvas__links">
@@ -108,86 +108,86 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
           </div>
           <div className="offcanvas__mid">
             <div className="offcanvas__menu-wrapper">
-              <nav className="offcanvas__menu">
+              <nav className="offcanvas__menu p-100">
                 <ul className="menu-anim title" ref={headerTitle}>
                   <li>
                     <div className="header_title">
-                      <Link href={"/digital-marketing"}>HOME</Link>
-                      <div className="accordian-btn">
+                      <Link href={"/"}>HOME</Link>
+                      {/* <div className="accordian-btn">
                         {accordion === 1 ? (
                           <a onClick={() => openData(0)}>-</a>
                         ) : (
                           <a onClick={() => openData(1)}>+</a>
                         )}
-                      </div>
+                      </div> */}
                     </div>
-                    <ul
-                      className="sub_title"
-                      style={
-                        accordion === 1 ? { display: "" } : { display: "none" }
-                      }
-                    >
-                      <li>
-                        <Link href={"/digital-marketing"}>
-                          Digital Maketing
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/digital-marketing-dark"}>
-                          Digital Maketing dark
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/design-studio"}>Design Studio </Link>
-                      </li>
-                      <li>
-                        <Link href={"/design-studio-dark"}>
-                          Design Studio dark
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/digital-agency"}>Digital Agency</Link>
-                      </li>
-                      <li>
-                        <Link href={"/digital-agency-dark"}>
-                          Digital Agency dark
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/creative-agency"}>creative Agency</Link>
-                      </li>
-                      <li>
-                        <Link href={"/creative-agency"}>
-                          creative Agency dark
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/startup-agency"}>Startup Agency</Link>
-                      </li>
-                      <li>
-                        <Link href={"/startup-agency-dark"}>
-                          Startup Agency dark
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/modern-agency"}>modern agency</Link>
-                      </li>
-                      <li>
-                        <Link href={"/modern-agency-dark"}>
-                          modern agency dark
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/personal-portfolio"}>
-                          personal Portfolio
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/personal-portfolio-dark"}>
-                          personal Portfolio dark
-                        </Link>
-                      </li>
-                    </ul>
+                      {/* <ul
+                        className="sub_title"
+                        style={
+                          accordion === 1 ? { display: "" } : { display: "none" }
+                        }
+                      >
+                        <li>
+                          <Link href={"/digital-marketing"}>
+                            Digital Maketing
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/digital-marketing-dark"}>
+                            Digital Maketing dark
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/design-studio"}>Design Studio </Link>
+                        </li>
+                        <li>
+                          <Link href={"/design-studio-dark"}>
+                            Design Studio dark
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/digital-agency"}>Digital Agency</Link>
+                        </li>
+                        <li>
+                          <Link href={"/digital-agency-dark"}>
+                            Digital Agency dark
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/creative-agency"}>creative Agency</Link>
+                        </li>
+                        <li>
+                          <Link href={"/creative-agency"}>
+                            creative Agency dark
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/startup-agency"}>Startup Agency</Link>
+                        </li>
+                        <li>
+                          <Link href={"/startup-agency-dark"}>
+                            Startup Agency dark
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/modern-agency"}>modern agency</Link>
+                        </li>
+                        <li>
+                          <Link href={"/modern-agency-dark"}>
+                            modern agency dark
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/personal-portfolio"}>
+                            personal Portfolio
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href={"/personal-portfolio-dark"}>
+                            personal Portfolio dark
+                          </Link>
+                        </li>
+                      </ul> */}
                   </li>
                   <li>
                     <div className="header_title">
@@ -212,52 +212,23 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                       }
                     >
                       <li>
-                        <Link href={"/service"}>service</Link>
+                        <Link href={"/strategy-branding"}>Stratégie & Branding</Link>
                       </li>
                       <li>
-                        <Link href={"/service-dark"}>service dark</Link>
+                        <Link href={"/sites-internet"}>Sites Internet & E-commerce</Link>
                       </li>
                       <li>
-                        <Link href={"/service-v2"}>service v2</Link>
+                        <Link href={"/email-marketing"}>Email Marketing & Automatisation</Link>
                       </li>
                       <li>
-                        <Link href={"/service-v2-dark"}>service v2 dark</Link>
+                        <Link href={"/natural-referencing"}>SEO & Référencement</Link>
                       </li>
                       <li>
-                        <Link href={"/service-v3"}>service v3</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-v3-dark"}>service v3 dark</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-v4"}>service v4</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-v4-dark"}>service v4 dark</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-v5"}>service v5</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-v5-dark"}>service v5 dark</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-v6"}>service v6</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-v6-dark"}>service v6 dark</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-details"}>service details</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service-details-dark"}>
-                          service details dark
-                        </Link>
-                      </li>
+                        <Link href={"/social-media-advertising"}>Social Media Advertising</Link>
+                      </li>                      
                     </ul>
                   </li>
-                  <li>
+                  {/* <li>
                     <div className="header_title d-flex">
                       <Link href={"#"}>PAGES</Link>
                       <div className="accordian-btn">
@@ -541,22 +512,13 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                         >
                           <li>
                             <Link href={"/about"}>about</Link>
-                          </li>
-                          <li>
-                            <Link href={"/about-dark"}>about dark</Link>
-                          </li>
+                          </li>                          
                           <li>
                             <Link href={"/faq"}>FAQs</Link>
-                          </li>
-                          <li>
-                            <Link href={"/faq-dark"}>FAQs dark</Link>
-                          </li>
+                          </li>                          
                           <li>
                             <Link href={"/contact"}>contact</Link>
-                          </li>
-                          <li>
-                            <Link href={"/contact-dark"}>contact dark</Link>
-                          </li>
+                          </li>                          
                           <li>
                             <Link href={"/error"}>404</Link>
                           </li>
@@ -566,10 +528,10 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                         </ul>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
                     <div className="header_title">
-                      <Link href={"/blog"}>BLOG</Link>
+                      <Link href={"/projects"}>Projects</Link>
                       <div className="accordian-btn">
                         {accordion === 5 ? (
                           <a onClick={() => openData(0)}>-</a>
@@ -583,26 +545,15 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                       style={
                         accordion === 5 ? { display: "" } : { display: "none" }
                       }
-                    >
+                    >                      
                       <li>
-                        <Link href={"/blog"}>blog</Link>
+                        <Link href={"/project-kally-kurls"}>Project Kally Kurls</Link>
                       </li>
                       <li>
-                        <Link href={"/blog-dark"}>blog dark</Link>
+                        <Link href={"/project-charbon"}>Project Charbon</Link>
                       </li>
                       <li>
-                        <Link href={"/blog-v2"}>blog v2</Link>
-                      </li>
-                      <li>
-                        <Link href={"/blog-v2-dark"}>blog v2 dark</Link>
-                      </li>
-                      <li>
-                        <Link href={"/blog-details"}>blog details</Link>
-                      </li>
-                      <li>
-                        <Link href={"/blog-details-dark"}>
-                          blog details dark
-                        </Link>
+                        <Link href={"/project-david-go"}>Project David go</Link>
                       </li>
                     </ul>
                   </li>
@@ -628,12 +579,12 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               <h3>Get in touch</h3>
               <ul>
                 <li>
-                  <a href="tel:02094980547">+(02) - 094 980 547</a>
+                  <a href="tel:41766197833">+41 76 619 78 33</a>
                 </li>
                 <li>
-                  <a href="mailto:info@extradesign.com">info@extradesign.com</a>
+                  <a href="mailto:info@propulsodigital.com">info@propulsodigital.com</a>
                 </li>
-                <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+                {/* <li>230 Norman Street New York, QC (USA) H8R 1A1</li> */}
               </ul>
             </div>
             <Image

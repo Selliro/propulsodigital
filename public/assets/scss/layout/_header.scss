@@ -366,8 +366,9 @@
     .logo-primary {
       @media #{$xxl-1} {
         display: block;
-        width: 180px;
-        transform: rotate(-90deg);
+        filter: invert(1);
+        // width: 180px;
+        // transform: rotate(-90deg);
       }
       
     }
@@ -449,3 +450,4 @@
     filter: invert(1);
   }
 }
+

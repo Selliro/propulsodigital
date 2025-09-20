@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Navigation, Thumbs, FreeMode } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Portfolio11 from "../../../public/assets/imgs/portfolio/1/1.jpg";
+import Portfolio11 from "../../../public/assets/imgs/portfolio/1/work_kally_kurls.jpg";
 import Portfolio12 from "../../../public/assets/imgs/portfolio/1/2.jpg";
 import Portfolio13 from "../../../public/assets/imgs/portfolio/1/3.jpg";
 import Portfolio14 from "../../../public/assets/imgs/portfolio/1/4.jpg";
@@ -31,16 +31,15 @@ const PortfolioElementV5 = () => {
             <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come" ref={charAnim}>
-                  Awesome <br />
-                  Projects
+                  Nos <br/> réalisations
                 </h2>
               </div>
             </div>
             <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-6">
               <div className="blog__text">
                 <p>
-                  Crafting new bright brands, unique visual systems and digital
-                  experience focused on a wide range of original collabs.{" "}
+                  Création de nouvelles marques, identités visuelles et solutions 
+                  digitales pour divers projets innovants.
                 </p>
               </div>
             </div>
@@ -76,7 +75,7 @@ const PortfolioElementV5 = () => {
                     <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
-                          <Link href="/portfolio-details">
+                          <Link href="/project-kally-kurls">
                             <Image
                               priority
                               width={520}
@@ -91,7 +90,7 @@ const PortfolioElementV5 = () => {
                     <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
-                          <Link href="/portfolio-details">
+                          <Link href="/project-charbon">
                             <Image
                               priority
                               width={520}
@@ -106,7 +105,7 @@ const PortfolioElementV5 = () => {
                     <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
-                          <Link href="/portfolio-details">
+                          <Link href="/project-david-go">
                             <Image
                               priority
                               width={520}
@@ -118,7 +117,7 @@ const PortfolioElementV5 = () => {
                         </div>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
                           <Link href="/portfolio-details">
@@ -132,7 +131,7 @@ const PortfolioElementV5 = () => {
                           </Link>
                         </div>
                       </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                   </div>
                 </Swiper>
 
@@ -140,13 +139,13 @@ const PortfolioElementV5 = () => {
                   style={{ cursor: "pointer" }}
                   className="pp-next swipper-btn"
                 >
-                  prev
+                  Précédent
                 </div>
                 <div
                   style={{ cursor: "pointer" }}
                   className="pp-prev swipper-btn"
                 >
-                  Next
+                  Suivant
                 </div>
               </div>
             </div>
@@ -165,28 +164,28 @@ const PortfolioElementV5 = () => {
               >
                 <SwiperSlide>
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Apple book cover</h3>
-                    <p>March 2021</p>
+                    <h3 className="pp-slide-title">Kally Kurls</h3>
+                    <p>Stratégie, site internet, newsletter, ads</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Apple book cover</h3>
-                    <p>March 2021</p>
+                    <h3 className="pp-slide-title">Charbon</h3>
+                    <p>Stratégie & branding, site internet</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Apple book cover</h3>
-                    <p>March 2021</p>
+                    <h3 className="pp-slide-title">David coaching</h3>
+                    <p>Stratégie, site internet</p>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                   <div className="pp-slide-thumb">
                     <h3 className="pp-slide-title">Apple book cover</h3>
                     <p>March 2021</p>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
               </Swiper>
             </div>
           </div>

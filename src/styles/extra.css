@@ -1,5 +1,5 @@
 .offcanvas__menu {
-  padding-top: 142px;
+  padding-top: 100px;
 }
 .header_title {
   width: 100%;
@@ -360,11 +360,11 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .offcanvas__menu {
-    padding-top: 142px;
+    padding-top: 100px;
   }
 
   .header_title > a {
-    font-size: 60px;
+    font-size: 40px;
     padding-left: 60px;
   }
   .accordian-btn {
