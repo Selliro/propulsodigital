@@ -56,14 +56,14 @@ export default function Footer2() {
                     </p>
                     <ul className="footer__social-6">                      
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/propulso.digital">
                           <span>
                             <i className="fa-brands fa-instagram"></i>
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/company/propulso-digital">
                           <span>
                             <i className="fa-brands fa-linkedin"></i>
                           </span>
@@ -74,7 +74,7 @@ export default function Footer2() {
                   <div className="location">
                     <h3>Contact</h3>
                     <p>
-                      info@propulsodigital.com <br/>
+                      <a href="mailto:info@propulsodigital.com">info@propulsodigital.com </a><br/>
                       <a href="tel:+41 76 619 78 33">+41 76 619 78 33</a>                      
                     </p>
                     <p>Lun-Ven 8:00 – 18:00</p>

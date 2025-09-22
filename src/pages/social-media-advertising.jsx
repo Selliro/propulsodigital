@@ -72,7 +72,7 @@ const serviceData = {
                 "Une stratégie publicitaire sociale bien orchestrée est essentielle pour accélérer votre croissance. Nous créons des campagnes ciblées et optimisées qui transforment votre budget publicitaire en revenus mesurables et clients fidèles.",
                 ""
             ],
-            image: "/assets/imgs/thumb/natural-referencing-banner.jpg",
+            image: "/assets/imgs/thumb/social-media-advertising-banner.webp",
             imageAlt: "Email marketing services" 
         },
         integrations: [
@@ -144,7 +144,7 @@ const SocialMediaAdvertising = () => {
             <ServiceDetailsDevelopment service={currentService} 
                 images={[
                     "/assets/imgs/thumb/social-media-dev-1.png",
-                    "/assets/imgs/thumb/natural-referencing-dev-2.webp",
+                    "/assets/imgs/thumb/social-media-dev-2.webp",
                     "/assets/imgs/thumb/social-media-dev-3.png"
                 ]} 
             />

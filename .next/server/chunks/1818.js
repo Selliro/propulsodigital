@@ -25,7 +25,7 @@ const ServiceDetailsDevelopment = ({ service , images  })=>{
     // Default images if none provided
     const defaultImages = [
         "/assets/imgs/thumb/dev-1.jpg",
-        "/assets/imgs/thumb/dev-2.jpg",
+        "/assets/imgs/thumb/dev-2.webp",
         "/assets/imgs/thumb/dev-3.jpg"
     ];
     const developmentImages = images || defaultImages;

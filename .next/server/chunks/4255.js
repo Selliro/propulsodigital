@@ -42,7 +42,7 @@ exports.modules = {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/logo-black.f3d0d1c4.png","height":45,"width":136,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAFVBMVEUREREREREREREQEBAREREQEBAODg7+C/zqAAAAB3RSTlNJfGZcpx81KGCk5wAAAAlwSFlzAAALEwAACxMBAJqcGAAAAB5JREFUeJwFwYEBAAAIgjDQ6v+T2+hGU5HBZADK0QcCkAAtVHBL2QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/logo-black.cc29248b.png","height":132,"width":620,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAADFBMVEUKCwsKDxIHDBAqKiqxtvp/AAAABHRSTlNCFCcGqgfq0AAAAAlwSFlzAAAsSwAALEsBpT2WqQAAABhJREFUeJwFwQEBAAAIwyB2+3cWwEhtq3sAawARRLhGUgAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":2});
 
 /***/ }),
 
@@ -53,7 +53,7 @@ exports.modules = {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/site-logo-white-2.c8e48a63.png","height":33,"width":100,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAGFBMVEX///////////////////////////////8pK8DIAAAACHRSTlNgfUioOktMHZV8CZMAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAeSURBVHicBcGBAQAgDAIgdK3+/zjgSYh0bhjd6lkfAkQAL2fnqbYAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/site-logo-white-2.e1ad97fd.png","height":120,"width":360,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAADFBMVEXp6en6+vr3+fn4+Pi4LuA0AAAABHRSTlMDDzIocr9ywgAAAAlwSFlzAAALEwAACxMBAJqcGAAAABtJREFUeJxjYGBkZGRgZGBgYGRiYmJmArGgAAABLQASFcx42gAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":3});
 
 /***/ }),
 
@@ -4097,20 +4097,20 @@ const Canvas = ({ bladeMode ="" , ofCanvasArea  })=>{
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                         className: "social-title",
-                                        children: "Follow Us"
+                                        children: "SUIVEZ-NOUS"
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                    href: "#",
+                                                    href: "https://www.instagram.com/propulso.digital/",
                                                     children: "Instagram"
                                                 })
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                    href: "#",
-                                                    children: "Facebook"
+                                                    href: "https://www.linkedin.com/company/propulso-digital",
+                                                    children: "LinkedIn"
                                                 })
                                             })
                                         ]
@@ -4124,25 +4124,13 @@ const Canvas = ({ bladeMode ="" , ofCanvasArea  })=>{
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                 href: "/about",
-                                                children: "About"
+                                                children: "\xc0 PROPOS"
                                             })
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                 href: "/contact",
                                                 children: "contact"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                                href: "/career",
-                                                children: "Career"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                                href: "/blog",
-                                                children: "blog"
                                             })
                                         })
                                     ]
@@ -4165,7 +4153,7 @@ const Canvas = ({ bladeMode ="" , ofCanvasArea  })=>{
                                                 className: "header_title",
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                     href: "/",
-                                                    children: "HOME"
+                                                    children: "ACCUEIL"
                                                 })
                                             })
                                         }),
@@ -4174,7 +4162,7 @@ const Canvas = ({ bladeMode ="" , ofCanvasArea  })=>{
                                                 className: "header_title",
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                     href: "/about",
-                                                    children: "ABOUT"
+                                                    children: "\xc0 PROPOS"
                                                 })
                                             })
                                         }),
@@ -4185,7 +4173,7 @@ const Canvas = ({ bladeMode ="" , ofCanvasArea  })=>{
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                             href: "/service",
-                                                            children: "SERVICE"
+                                                            children: "SERVICES"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                             className: "accordian-btn",
@@ -4248,7 +4236,7 @@ const Canvas = ({ bladeMode ="" , ofCanvasArea  })=>{
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                             href: "/projects",
-                                                            children: "Projects"
+                                                            children: "PROJETS"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                             className: "accordian-btn",
@@ -5148,7 +5136,7 @@ function Footer2() {
                                                         children: [
                                                             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                    href: "#",
+                                                                    href: "https://www.instagram.com/propulso.digital",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                                             className: "fa-brands fa-instagram"
@@ -5158,7 +5146,7 @@ function Footer2() {
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                    href: "#",
+                                                                    href: "https://www.linkedin.com/company/propulso-digital",
                                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                         children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
                                                                             className: "fa-brands fa-linkedin"
@@ -5178,7 +5166,10 @@ function Footer2() {
                                                     }),
                                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                                         children: [
-                                                            "info@propulsodigital.com ",
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                                href: "mailto:info@propulsodigital.com",
+                                                                children: "info@propulsodigital.com "
+                                                            }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                 href: "tel:+41 76 619 78 33",
@@ -6526,13 +6517,13 @@ function Header3() {
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("header", {
                 ref: headerArea,
-                className: "jsx-dc387d3924f5209d" + " " + "header__area",
+                className: "jsx-6b87d30b45a44c7c" + " " + "header__area",
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "jsx-dc387d3924f5209d" + " " + "header__inner",
+                        className: "jsx-6b87d30b45a44c7c" + " " + "header__inner",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "jsx-dc387d3924f5209d" + " " + "header__logo",
+                                className: "jsx-6b87d30b45a44c7c" + " " + "header__logo",
                                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_4___default()), {
                                     href: "/",
                                     children: [
@@ -6556,11 +6547,11 @@ function Header3() {
                                 })
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "jsx-dc387d3924f5209d" + " " + "header__nav-icon",
+                                className: "jsx-6b87d30b45a44c7c" + " " + "header__nav-icon",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                     onClick: openCanvas,
                                     id: "open_offcanvas",
-                                    className: "jsx-dc387d3924f5209d",
+                                    className: "jsx-6b87d30b45a44c7c",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_8___default()), {
                                         priority: true,
                                         width: 22,
@@ -6571,18 +6562,18 @@ function Header3() {
                                 })
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "jsx-dc387d3924f5209d" + " " + "header__support",
+                                className: "jsx-6b87d30b45a44c7c" + " " + "header__support",
                                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                    className: "jsx-dc387d3924f5209d",
+                                    className: "jsx-6b87d30b45a44c7c",
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             href: "https://wa.me/+41766197833",
-                                            className: "jsx-dc387d3924f5209d",
+                                            className: "jsx-6b87d30b45a44c7c",
                                             children: "+41766197833"
                                         }),
                                         " ",
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {
-                                            className: "jsx-dc387d3924f5209d"
+                                            className: "jsx-6b87d30b45a44c7c"
                                         }),
                                         " \xc9crivez-nous sur WhatsApp"
                                     ]
@@ -6597,8 +6588,8 @@ function Header3() {
                 ]
             }),
             react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default()), {
-                id: "dc387d3924f5209d",
-                children: ".header__inner.jsx-dc387d3924f5209d{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:20px 0;width:100%}.header__logo.jsx-dc387d3924f5209d{-webkit-box-flex:0;-webkit-flex:0 0 auto;-moz-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}.header__nav-icon.jsx-dc387d3924f5209d{-webkit-box-flex:0;-webkit-flex:0 0 20%;-moz-box-flex:0;-ms-flex:0 0 20%;flex:0 0 20%;margin:0 20px}.header__support.jsx-dc387d3924f5209d{-webkit-box-flex:0;-webkit-flex:0 0 20%;-moz-box-flex:0;-ms-flex:0 0 20%;flex:0 0 20%;text-align:center}.header__support.jsx-dc387d3924f5209d p.jsx-dc387d3924f5209d{margin:0;font-size:14px;line-height:1.4;text-align:center}.header__support.jsx-dc387d3924f5209d a.jsx-dc387d3924f5209d{color:#fff;text-decoration:none;-webkit-transition:opacity.3s ease;-moz-transition:opacity.3s ease;-o-transition:opacity.3s ease;transition:opacity.3s ease}.header__support.jsx-dc387d3924f5209d a.jsx-dc387d3924f5209d:hover{opacity:.8}@media(max-width:768px){.header__inner.jsx-dc387d3924f5209d{padding:15px 0}.header__support.jsx-dc387d3924f5209d{display:none}.header__nav-icon.jsx-dc387d3924f5209d{margin:0 10px}}"
+                id: "6b87d30b45a44c7c",
+                children: ".header__inner.jsx-6b87d30b45a44c7c{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:20px 0;width:100%}.header__logo.jsx-6b87d30b45a44c7c{-webkit-box-flex:0;-webkit-flex:0 0 auto;-moz-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}.header__nav-icon.jsx-6b87d30b45a44c7c{-webkit-box-flex:0;-webkit-flex:0 0 20%;-moz-box-flex:0;-ms-flex:0 0 20%;flex:0 0 20%;margin:0 20px}.header__support.jsx-6b87d30b45a44c7c{-webkit-box-flex:0;-webkit-flex:0 0 20%;-moz-box-flex:0;-ms-flex:0 0 20%;flex:0 0 20%;text-align:center}.header__support.jsx-6b87d30b45a44c7c p.jsx-6b87d30b45a44c7c{margin:0;font-size:14px;line-height:1.4;text-align:center}.header__support.jsx-6b87d30b45a44c7c a.jsx-6b87d30b45a44c7c{color:#fff;text-decoration:none;-webkit-transition:opacity.3s ease;-moz-transition:opacity.3s ease;-o-transition:opacity.3s ease;transition:opacity.3s ease}.header__support.jsx-6b87d30b45a44c7c a.jsx-6b87d30b45a44c7c:hover{opacity:.8}@media(max-width:768px){.header__inner.jsx-6b87d30b45a44c7c{padding:15px 0;display:grid}.header__support.jsx-6b87d30b45a44c7c{display:none}.header__nav-icon.jsx-6b87d30b45a44c7c{margin:0 10px}}"
             })
         ]
     });

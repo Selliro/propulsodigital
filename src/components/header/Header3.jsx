@@ -130,6 +130,7 @@ export default function Header3() {
         @media (max-width: 768px) {
           .header__inner {
             padding: 15px 0;
+            display: grid;
           }
           
           .header__support {

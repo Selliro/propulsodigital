@@ -185,7 +185,7 @@ const DigitalAgencyTestimonial = ({
                     />
                   </div>
 
-                  <h2 className="testimonial__title">Audrick</h2>
+                  <h2 className="testimonial__title">Henok </h2>
                   <h3 className="testimonial__role">Co-founder Charbon</h3>
                 </div>
               </div>

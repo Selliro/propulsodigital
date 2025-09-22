@@ -45,7 +45,7 @@ const Contact1 = ()=>{
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                         className: "sec-title-2 animation__char_come",
                                         ref: charAnim,
-                                        children: "Let’s get in touch"
+                                        children: "Restons en contact"
                                     })
                                 })
                             }),
@@ -54,7 +54,7 @@ const Contact1 = ()=>{
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "contact__text",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        children: "Great! We're excited to hear from you and let's start something special togerter. call us for any inquery."
+                                        children: "Besoin d'aide pour d\xe9velopper votre activit\xe9 e-commerce ou digitale ? Contactez-nous d\xe8s aujourd'hui !"
                                     })
                                 })
                             })
@@ -68,36 +68,23 @@ const Contact1 = ()=>{
                                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "contact__info",
                                     children: [
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                             className: "sub-title-anim-top animation__word_come",
                                             ref: wordAnim,
-                                            children: [
-                                                "Don't be afraid man ! ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                "say hello"
-                                            ]
+                                            children: "N’h\xe9sitez pas, \xe9crivez-nous! "
                                         }),
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        href: "tel:+(2)578365379",
-                                                        children: "+(2) 578 - 365 - 379"
+                                                        href: "tel:41766197833",
+                                                        children: "+41 76 619 78 33"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                        href: "mailto:hello@example.com",
-                                                        children: "hello@example.com"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                                        children: [
-                                                            "230 Norman Street New York, ",
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                            " QC (USA) H8R 1A1"
-                                                        ]
+                                                        href: "mailto:contact@propulsodigital.com",
+                                                        children: "contact@propulsodigital.com"
                                                     })
                                                 })
                                             ]
@@ -121,7 +108,7 @@ const Contact1 = ()=>{
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                                             type: "text",
                                                             name: "name",
-                                                            placeholder: "Name *"
+                                                            placeholder: "Nom *"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -129,7 +116,7 @@ const Contact1 = ()=>{
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                                             type: "email",
                                                             name: "email",
-                                                            placeholder: "Email *"
+                                                            placeholder: "E-mail *"
                                                         })
                                                     })
                                                 ]
@@ -142,7 +129,7 @@ const Contact1 = ()=>{
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                                             type: "tel",
                                                             name: "phone",
-                                                            placeholder: "Phone"
+                                                            placeholder: "T\xe9l\xe9phone"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -150,7 +137,7 @@ const Contact1 = ()=>{
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                                             type: "text",
                                                             name: "subject",
-                                                            placeholder: "Subject *"
+                                                            placeholder: "Sujet *"
                                                         })
                                                     })
                                                 ]
@@ -161,7 +148,7 @@ const Contact1 = ()=>{
                                                     className: "col-12",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                         name: "message",
-                                                        placeholder: "Messages *"
+                                                        placeholder: "Message *"
                                                     })
                                                 })
                                             }),
@@ -175,9 +162,9 @@ const Contact1 = ()=>{
                                                             className: "wc-btn-primary btn-hover btn-item",
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {}),
-                                                                " Send ",
+                                                                " Envoyer le ",
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                                "Messages ",
+                                                                " message ",
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                                     className: "fa-solid fa-arrow-right"
                                                                 })

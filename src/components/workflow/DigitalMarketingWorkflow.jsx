@@ -26,7 +26,7 @@ const DigitalMarketingWorkflow = () => {
                   pin: true,
                   scrub: 1,
                   start: "top top",
-                  end: "+=5000",
+                  end: "+=3000",
                 },
               });
 
@@ -92,7 +92,7 @@ const DigitalMarketingWorkflow = () => {
                 );
             }
           }
-          for (let i = 1; i < 5; i++) {
+          for (let i = 1; i < 3; i++) {
             gsap.from(gsap.utils.toArray(`.count${i}`), {
               textContent: 0,
               duration: 1,
@@ -120,7 +120,7 @@ const DigitalMarketingWorkflow = () => {
                 <div className="col-xxl-12">
                   <div className="choose-title-wrapper">
                     <h2 className="choose-title title-anim">
-                      why <br /> choose us
+                      POURQUOI NOUS CHOISIR{''}
                     </h2>
                   </div>
                 </div>
@@ -205,7 +205,7 @@ const DigitalMarketingWorkflow = () => {
           </div>
 
           <div className="counter__area-3 wf_panel">
-            <div className="container">
+            {/* <div className="container">
               <div className="row">
                 <div className="col-xxl-12">
                   <div className="sec-title-wrapper">
@@ -260,12 +260,12 @@ const DigitalMarketingWorkflow = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* CTA area start */}
           <div className="cta__area-3 wf_panel">
-            <div className="container pt-150 pb-150">
+            {/* <div className="container pt-150 pb-150">
               <div className="row">
                 <div className="col-xxl-12">
                   <div className="cta__content-3">
@@ -287,7 +287,7 @@ const DigitalMarketingWorkflow = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* CTA area end */}
         </div>

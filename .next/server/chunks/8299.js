@@ -85,7 +85,7 @@ const ServiceDetailsAlternatingLayout = ({ service  })=>{
                                                             alt: section.title,
                                                             style: {
                                                                 width: "100%",
-                                                                height: "auto"
+                                                                height: "100% !important"
                                                             }
                                                         })
                                                     })
@@ -158,12 +158,12 @@ const ServiceDetailsAlternatingLayout = ({ service  })=>{
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                             priority: true,
                                                             width: 600,
-                                                            height: 400,
+                                                            height: 600,
                                                             src: section.imageUrl,
                                                             alt: section.title,
                                                             style: {
                                                                 width: "100%",
-                                                                height: "auto"
+                                                                height: "100% !important"
                                                             }
                                                         })
                                                     })

@@ -18,7 +18,7 @@ const Contact1 = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come" ref={charAnim}>
-                  Let’s get in touch
+                  Restons en contact
                 </h2>
               </div>
             </div>
@@ -26,7 +26,7 @@ const Contact1 = () => {
               <div className="contact__text">
                 <p>
                   {
-                    "Great! We're excited to hear from you and let's start something special togerter. call us for any inquery."
+                    "Besoin d'aide pour développer votre activité e-commerce ou digitale ? Contactez-nous dès aujourd'hui !"
                   }
                 </p>
               </div>
@@ -39,22 +39,20 @@ const Contact1 = () => {
                   className="sub-title-anim-top animation__word_come"
                   ref={wordAnim}
                 >
-                  {"Don't be afraid man ! "}
-                  <br />
-                  say hello
+                  {"N’hésitez pas, écrivez-nous! "}                  
                 </h3>
                 <ul>
                   <li>
-                    <a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a>
+                    <a href="tel:41766197833">+41 76 619 78 33</a>
                   </li>
                   <li>
-                    <a href="mailto:hello@example.com">hello@example.com</a>
+                    <a href="mailto:contact@propulsodigital.com">contact@propulsodigital.com</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <span>
                       230 Norman Street New York, <br /> QC (USA) H8R 1A1
                     </span>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -63,21 +61,21 @@ const Contact1 = () => {
                 <form action="assets/mail.php" method="POST">
                   <div className="row g-3">
                     <div className="col-xxl-6 col-xl-6 col-12">
-                      <input type="text" name="name" placeholder="Name *" />
+                      <input type="text" name="name" placeholder="Nom *" />
                     </div>
                     <div className="col-xxl-6 col-xl-6 col-12">
-                      <input type="email" name="email" placeholder="Email *" />
+                      <input type="email" name="email" placeholder="E-mail *" />
                     </div>
                   </div>
                   <div className="row g-3">
                     <div className="col-xxl-6 col-xl-6 col-12">
-                      <input type="tel" name="phone" placeholder="Phone" />
+                      <input type="tel" name="phone" placeholder="Téléphone" />
                     </div>
                     <div className="col-xxl-6 col-xl-6 col-12">
                       <input
                         type="text"
                         name="subject"
-                        placeholder="Subject *"
+                        placeholder="Sujet *"
                       />
                     </div>
                   </div>
@@ -85,7 +83,7 @@ const Contact1 = () => {
                     <div className="col-12">
                       <textarea
                         name="message"
-                        placeholder="Messages *"
+                        placeholder="Message *"
                       ></textarea>
                     </div>
                   </div>
@@ -93,8 +91,7 @@ const Contact1 = () => {
                     <div className="col-12">
                       <div className="btn_wrapper">
                         <button className="wc-btn-primary btn-hover btn-item">
-                          <span></span> Send <br />
-                          Messages <i className="fa-solid fa-arrow-right"></i>
+                          <span></span> Envoyer le <br/> message <i className="fa-solid fa-arrow-right"></i>
                         </button>
                       </div>
                     </div>

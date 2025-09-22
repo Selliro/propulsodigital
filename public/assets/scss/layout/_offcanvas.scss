@@ -41,7 +41,7 @@
 
   &__left {
     display: grid;
-    grid-template-rows: 0.5fr 2.1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 1fr;
     border-right: 1px solid var(--black-4);
 
     @media #{$sm} {
@@ -151,7 +151,7 @@
 
   &__social {
     padding-left: 50px;
-    padding-top: 220px;
+    padding-top: 120px;
     border-bottom: 1px solid var(--black-4);
 
     @media #{$xl} {

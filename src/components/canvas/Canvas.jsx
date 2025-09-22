@@ -67,7 +67,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               </Link>
             </div>
             <div className="offcanvas__social">
-              <h3 className="social-title">Follow Us</h3>
+              <h3 className="social-title">SUIVEZ-NOUS</h3>
               <ul>
                 {/* <li>
                   <a href="#">Dribbble</a>
@@ -76,10 +76,10 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   <a href="#">Behance</a>
                 </li> */}
                 <li>
-                  <a href="#">Instagram</a>
+                  <a href="https://www.instagram.com/propulso.digital/">Instagram</a>
                 </li>
                 <li>
-                  <a href="#">Facebook</a>
+                  <a href="https://www.linkedin.com/company/propulso-digital">LinkedIn</a>
                 </li>
                 {/* <li>
                   <a href="#">Twitter</a>
@@ -92,17 +92,11 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
             <div className="offcanvas__links">
               <ul>
                 <li>
-                  <Link href="/about">About</Link>
+                  <Link href="/about">À PROPOS</Link>
                 </li>
                 <li>
                   <Link href="/contact">contact</Link>
-                </li>
-                <li>
-                  <Link href="/career">Career</Link>
-                </li>
-                <li>
-                  <Link href="/blog">blog</Link>
-                </li>
+                </li>                
               </ul>
             </div>
           </div>
@@ -112,7 +106,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                 <ul className="menu-anim title" ref={headerTitle}>
                   <li>
                     <div className="header_title">
-                      <Link href={"/"}>HOME</Link>
+                      <Link href={"/"}>ACCUEIL</Link>
                       {/* <div className="accordian-btn">
                         {accordion === 1 ? (
                           <a onClick={() => openData(0)}>-</a>
@@ -191,12 +185,12 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   </li>
                   <li>
                     <div className="header_title">
-                      <Link href={"/about"}>ABOUT</Link>
+                      <Link href={"/about"}>À PROPOS</Link>
                     </div>
                   </li>
                   <li>
                     <div className="header_title d-flex">
-                      <Link href={"/service"}>SERVICE</Link>
+                      <Link href={"/service"}>SERVICES</Link>
                       <div className="accordian-btn">
                         {accordion === 3 ? (
                           <a onClick={() => openData(0)}>-</a>
@@ -531,7 +525,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   </li> */}
                   <li>
                     <div className="header_title">
-                      <Link href={"/projects"}>Projects</Link>
+                      <Link href={"/projects"}>PROJETS</Link>
                       <div className="accordian-btn">
                         {accordion === 5 ? (
                           <a onClick={() => openData(0)}>-</a>

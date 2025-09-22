@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Portfilio11 from "../../../public/assets/imgs/portfolio/1/work_banner_img_1.jpg";
-import Portfilio12 from "../../../public/assets/imgs/portfolio/1/work_banner_img_2.jpg";
+import Project1 from "../../../public/assets/imgs/portfolio/1/work_banner_img_1.webp";
+import Project2 from "../../../public/assets/imgs/portfolio/1/work_banner_img_2.webp";
 
 import Image from "next/image";
 
@@ -79,12 +79,12 @@ const DigitalAgencyPortfolio = () => {
             <h2 className="portfolio__text">PROJETS <br/> CLIENTS</h2>
             <div className="portfolio__list-1">
               <div className="portfolio__item">
-                <Link href="portfolio-details">
+                <Link href="#">
                   <Image
                     priority
-                    style={{ width: "100%", height: "auto" }}
+                    style={{ width: "100%", height: "650px" }}
                     className="mover"
-                    src={Portfilio11}
+                    src={Project1}
                     alt="Portfolio Image"
                   />
                 </Link>
@@ -94,11 +94,11 @@ const DigitalAgencyPortfolio = () => {
                 </div> */}
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="#">
                   <Image
                     priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Portfilio12}
+                    style={{ width: "100%", height: "650px" }}
+                    src={Project2}
                     alt="Portfolio Image"
                   />
                 </Link>

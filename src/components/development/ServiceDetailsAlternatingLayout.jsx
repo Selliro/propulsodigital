@@ -53,7 +53,7 @@ const ServiceDetailsAlternatingLayout = ({ service }) => {
                         height={400}
                         src={section.imageUrl}
                         alt={section.title}
-                        style={{ width: "100%", height: "auto" }}
+                        style={{ width: "100%", height: "100% !important" }}
                       />
                     </div>
                   </div>
@@ -104,10 +104,10 @@ const ServiceDetailsAlternatingLayout = ({ service }) => {
                       <Image
                         priority
                         width={600}
-                        height={400}
+                        height={600}
                         src={section.imageUrl}
                         alt={section.title}
-                        style={{ width: "100%", height: "auto" }}
+                        style={{ width: "100%", height: "100% !important" }}
                       />
                     </div>
                   </div>

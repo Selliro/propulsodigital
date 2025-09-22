@@ -120,7 +120,7 @@ const DigitalAgency = () => {
             <i className="fa-solid fa-xmark"></i>
           </span>
           <iframe
-            src="https://www.youtube.com/embed/vZgyWfmw_Kw"
+            src="/assets/imgs/testimonial/videos/Célia_Kally_Kurls.mp4"
             title="Testimonial Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
             allowFullScreen
@@ -139,7 +139,7 @@ const DigitalAgency = () => {
             <i className="fa-solid fa-xmark"></i>
           </span>
           <iframe
-            src="https://www.youtube.com/embed/JulIeG1V8T4"
+            src="/assets/imgs/testimonial/videos/David_coaching.mp4"
             allowFullScreen
           ></iframe>
         </div>
@@ -156,7 +156,7 @@ const DigitalAgency = () => {
             <i className="fa-solid fa-xmark"></i>
           </span>
           <iframe
-            src="https://www.youtube.com/embed/7QkL-40FRfE"
+            src="/assets/imgs/testimonial/videos/Henok_Charbon.mp4"
             allowFullScreen
           ></iframe>
         </div>

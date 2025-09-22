@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Portfolio11 from "../../../public/assets/imgs/portfolio/1/work_kally_kurls.jpg";
 import Portfolio12 from "../../../public/assets/imgs/portfolio/1/2.jpg";
 import Portfolio13 from "../../../public/assets/imgs/portfolio/1/3.jpg";
-import Portfolio14 from "../../../public/assets/imgs/portfolio/1/4.jpg";
+// import Portfolio14 from "../../../public/assets/imgs/portfolio/1/4.jpg";
 import Link from "next/link";
 import Image from "next/image";
 

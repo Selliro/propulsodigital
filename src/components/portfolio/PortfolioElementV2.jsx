@@ -80,7 +80,7 @@ const PortfolioElementV2 = () => {
             <h2 className="portfolio__text">work</h2>
             <div className="portfolio__list-1">
               <div className="portfolio__item">
-                <Link href="portfolio-details">
+                <Link href="#">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -95,7 +95,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="#">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -109,7 +109,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="#">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -123,7 +123,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="#">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -137,7 +137,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="#">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -151,7 +151,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="#">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -176,7 +176,7 @@ const PortfolioElementV2 = () => {
               >
                 <Link
                   className="wc-btn-secondary btn-hover btn-item"
-                  href="/portfolio"
+                  href="#"
                 >
                   <span></span>Load More
                 </Link>

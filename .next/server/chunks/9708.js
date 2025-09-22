@@ -30,20 +30,19 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var _public_assets_imgs_portfolio_1_work_kally_kurls_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3654);
 /* harmony import */ var _public_assets_imgs_portfolio_1_2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4248);
 /* harmony import */ var _public_assets_imgs_portfolio_1_3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3394);
-/* harmony import */ var _public_assets_imgs_portfolio_1_4_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(500);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(8722);
-/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(swiper_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(9176);
-/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(swiper_css_navigation__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var swiper_css_thumbs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(7383);
-/* harmony import */ var swiper_css_thumbs__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(swiper_css_thumbs__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(9241);
-/* harmony import */ var swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _lib_utils_animationCharCome__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(9899);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1664);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(5675);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(8722);
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(swiper_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(9176);
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(swiper_css_navigation__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var swiper_css_thumbs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(7383);
+/* harmony import */ var swiper_css_thumbs__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(swiper_css_thumbs__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(9241);
+/* harmony import */ var swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _lib_utils_animationCharCome__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(9899);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper__WEBPACK_IMPORTED_MODULE_2__, swiper_react__WEBPACK_IMPORTED_MODULE_3__]);
 ([swiper__WEBPACK_IMPORTED_MODULE_2__, swiper_react__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -53,7 +52,7 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swip
 
 
 
-
+// import Portfolio14 from "../../../public/assets/imgs/portfolio/1/4.jpg";
 
 
 // Import Swiper styles
@@ -66,7 +65,7 @@ const PortfolioElementV5 = ()=>{
     const [thumbsSwiper, setThumbsSwiper] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);
     const charAnim = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
-        (0,_lib_utils_animationCharCome__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z)(charAnim.current);
+        (0,_lib_utils_animationCharCome__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z)(charAnim.current);
     }, []);
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
@@ -153,9 +152,9 @@ const PortfolioElementV5 = ()=>{
                                                             className: "pp-slide",
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                 className: "pp-slide-img",
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_8___default()), {
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
                                                                     href: "/project-kally-kurls",
-                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_9___default()), {
+                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_8___default()), {
                                                                         priority: true,
                                                                         width: 520,
                                                                         style: {
@@ -173,9 +172,9 @@ const PortfolioElementV5 = ()=>{
                                                             className: "pp-slide",
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                 className: "pp-slide-img",
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_8___default()), {
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
                                                                     href: "/project-charbon",
-                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_9___default()), {
+                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_8___default()), {
                                                                         priority: true,
                                                                         width: 520,
                                                                         style: {
@@ -193,9 +192,9 @@ const PortfolioElementV5 = ()=>{
                                                             className: "pp-slide",
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                 className: "pp-slide-img",
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_8___default()), {
+                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
                                                                     href: "/project-david-go",
-                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_9___default()), {
+                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_8___default()), {
                                                                         priority: true,
                                                                         width: 520,
                                                                         style: {

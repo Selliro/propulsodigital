@@ -58,7 +58,7 @@ const serviceData = {
           id: 1,
           title: "Identité visuelle",
           content: "Logo, palette de couleurs, typographies, iconographie & motifs",
-          imageUrl: "/assets/imgs/thumb/mockup_kally_kurls.jpg",
+          imageUrl: "/assets/imgs/thumb/mockup_8_mirror.webp",
           features: [
             // "Personnalisé à vos objectifs",
             // "Expérience utilisateur optimisée",
@@ -70,7 +70,7 @@ const serviceData = {
           id: 2,
           title: "Design print",
           content: "Flyers, brochures, présentations, pitch decks, roll-up, templates",
-          imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+          imageUrl: "/assets/imgs/thumb/mockup_kally_kurls.webp",
           features: [
             // "Modernisation complète",
             // "Amélioration du contenu",

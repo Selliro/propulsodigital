@@ -2,17 +2,6 @@ exports.id = 1214;
 exports.ids = [1214];
 exports.modules = {
 
-/***/ 1490:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/about_testimonial_img1.873a8293.jpg","height":6000,"width":4000,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAfEAACAgIBBQAAAAAAAAAAAAABAgAFAwQRBhITUcH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aj9T21c97l166t1/BgVVUo4CsCOe4ce/giIgf/9k=","blurWidth":5,"blurHeight":8});
-
-/***/ }),
-
 /***/ 2710:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -930,9 +919,10 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3877);
-/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3015);
-/* harmony import */ var _public_assets_imgs_testimonial_1_about_testimonial_img1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1490);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3877);
+/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3015);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5675);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8722);
@@ -943,8 +933,8 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9241);
 /* harmony import */ var swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(swiper_css_free_mode__WEBPACK_IMPORTED_MODULE_8__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper__WEBPACK_IMPORTED_MODULE_1__, swiper_react__WEBPACK_IMPORTED_MODULE_2__]);
-([swiper__WEBPACK_IMPORTED_MODULE_1__, swiper_react__WEBPACK_IMPORTED_MODULE_2__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper__WEBPACK_IMPORTED_MODULE_2__, swiper_react__WEBPACK_IMPORTED_MODULE_3__]);
+([swiper__WEBPACK_IMPORTED_MODULE_2__, swiper_react__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -956,6 +946,53 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swip
 
 
 const AboutTestimonial = ()=>{
+    const [activeSlide, setActiveSlide] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
+    const swiperRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
+    const videoRefs = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)([]);
+    // Testimonial data with corresponding video sources
+    const testimonials = [
+        {
+            id: 1,
+            title: "L’entrepreneuriat m’a appris que la croissance digitale commence par les personnes.",
+            text: "Mon parcours a toujours \xe9t\xe9 guid\xe9 par le contact humain. J’ai appris que, derri\xe8re chaque projet digital, il y a avant tout une relation de confiance \xe0 construire avec les clients. Convaincu que le digital et l’innovation sont l’avenir, je les utilise comme des leviers au service d’une chose essentielle : comprendre les besoins des entreprises et y r\xe9pondre avec authenticit\xe9 et impact.",
+            author: "Th\xe9o Kuhn",
+            role: "Co-fondateur, Propulso digital",
+            videoSrc: "",
+            imageSrc: "/assets/imgs/testimonial/1/about_testimonial_img1.jpg"
+        },
+        {
+            id: 2,
+            title: "Mon parcours m'a appris que la croissance digitale se joue dans les d\xe9tails.",
+            text: "De l’h\xf4tellerie aux multinationales en passant par les startups, mon parcours m’a appris que l’exigence, la pr\xe9cision et la cr\xe9ativit\xe9 sont essentielles pour transformer une vision en r\xe9sultats. Cette rigueur, h\xe9rit\xe9e d’un secteur o\xf9 chaque d\xe9tail compte, guide aujourd’hui ma mani\xe8re d’accompagner nos clients.",
+            author: "Elise Schorderet ",
+            role: "Co-fondatrice, Propulso Digital",
+            videoSrc: "",
+            imageSrc: "/assets/imgs/testimonial/1/about_testimonial_img2.webp"
+        }
+    ];
+    // Handle slide change
+    const handleSlideChange = (swiper)=>{
+        setActiveSlide(swiper.activeIndex);
+    };
+    // Initialize navigation buttons
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        if (swiperRef.current && swiperRef.current.swiper) {
+            const swiperInstance = swiperRef.current.swiper;
+            // Add event listeners to navigation buttons
+            const prevButton = document.querySelector(".prev-button");
+            const nextButton = document.querySelector(".next-button");
+            if (prevButton) {
+                prevButton.addEventListener("click", ()=>{
+                    swiperInstance.slidePrev();
+                });
+            }
+            if (nextButton) {
+                nextButton.addEventListener("click", ()=>{
+                    swiperInstance.slideNext();
+                });
+            }
+        }
+    }, []);
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
             className: "testimonial__area-2",
@@ -974,12 +1011,14 @@ const AboutTestimonial = ()=>{
                                     className: "testimonial__video",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_4___default()), {
                                         priority: true,
-                                        width: 300,
+                                        width: 500,
+                                        height: 600,
                                         style: {
+                                            width: "100%",
                                             height: "auto"
                                         },
-                                        src: _public_assets_imgs_testimonial_1_about_testimonial_img1_jpg__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z,
-                                        alt: "Story Thumbnail",
+                                        src: testimonials[activeSlide].imageSrc,
+                                        alt: `${testimonials[activeSlide].author} thumbnail`,
                                         className: "w-100"
                                     })
                                 })
@@ -991,22 +1030,20 @@ const AboutTestimonial = ()=>{
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "testimonial__slider",
-                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_2__.Swiper, {
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
+                                                ref: swiperRef,
                                                 modules: [
-                                                    swiper__WEBPACK_IMPORTED_MODULE_1__.FreeMode,
-                                                    swiper__WEBPACK_IMPORTED_MODULE_1__.Navigation
+                                                    swiper__WEBPACK_IMPORTED_MODULE_2__.FreeMode,
+                                                    swiper__WEBPACK_IMPORTED_MODULE_2__.Navigation
                                                 ],
                                                 spaceBetween: 0,
                                                 slidesPerView: 1,
-                                                freeMode: true,
+                                                freeMode: false,
                                                 loop: true,
-                                                speed: 2000,
-                                                navigation: {
-                                                    nextEl: ".next-button",
-                                                    prevEl: ".prev-button"
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
+                                                speed: 1000,
+                                                onSlideChange: handleSlideChange,
+                                                onInit: (swiper)=>setActiveSlide(swiper.activeIndex),
+                                                children: testimonials.map((testimonial)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                             className: "testimonial__slide",
                                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -1014,78 +1051,24 @@ const AboutTestimonial = ()=>{
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                                                         className: "testimonial__title-2",
-                                                                        children: "L’entrepreneuriat m’a appris que la croissance digitale commence par les personnes."
+                                                                        children: testimonial.title
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                                         className: "testimonial__text-2",
-                                                                        children: "Mon parcours a toujours \xe9t\xe9 guid\xe9 par le contact humain. J’ai appris que, derri\xe8re chaque projet digital, il y a avant tout une relation de confiance \xe0 construire avec les clients. Convaincu que le digital et l’innovation sont l’avenir, je les utilise comme des leviers au service d’une chose essentielle : comprendre les besoins des entreprises et y r\xe9pondre avec authenticit\xe9 et impact."
+                                                                        children: testimonial.text
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                                                         className: "testimonial__author",
-                                                                        children: "Th\xe9o Kuhn"
+                                                                        children: testimonial.author
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
                                                                         className: "testimonial__role",
-                                                                        children: "Co-fondateur, Propulso digital"
+                                                                        children: testimonial.role
                                                                     })
                                                                 ]
                                                             })
                                                         })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
-                                                        className: "swiper-slide ",
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "testimonial__slide",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "testimonial__inner-2",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                                                        className: "testimonial__title-2",
-                                                                        children: "Amazing digital service"
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                        className: "testimonial__text-2",
-                                                                        children: "We were there right at the beginning just when the concept for search engine optimisation taking office and the full of internet. So wewe’ve grown to employ than 50 talented specialists with diverse experiences and broad skill sets of huge markers."
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                                        className: "testimonial__author",
-                                                                        children: "Adam Syndera"
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                                        className: "testimonial__role",
-                                                                        children: "CEO, Agency"
-                                                                    })
-                                                                ]
-                                                            })
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "testimonial__slide",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "testimonial__inner-2",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                                                        className: "testimonial__title-2",
-                                                                        children: "Amazing digital service"
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                        className: "testimonial__text-2",
-                                                                        children: "We were there right at the beginning just when the concept for search engine optimisation taking office and the full of internet. So wewe’ve grown to employ than 50 talented specialists with diverse experiences and broad skill sets of huge markers."
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                                        className: "testimonial__author",
-                                                                        children: "Adam Syndera"
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                                        className: "testimonial__role",
-                                                                        children: "CEO, Agency"
-                                                                    })
-                                                                ]
-                                                            })
-                                                        })
-                                                    })
-                                                ]
+                                                    }, testimonial.id))
                                             })
                                         }),
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -1097,7 +1080,7 @@ const AboutTestimonial = ()=>{
                                                     },
                                                     className: "prev-button",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                        className: "fa-solid fa-arrow-right"
+                                                        className: "fa-solid fa-arrow-left"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -1106,7 +1089,7 @@ const AboutTestimonial = ()=>{
                                                     },
                                                     className: "next-button",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                        className: "fa-solid fa-arrow-left"
+                                                        className: "fa-solid fa-arrow-right"
                                                     })
                                                 })
                                             ]

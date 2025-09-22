@@ -18,11 +18,11 @@ const PortfolioDetailsDark = () => {
     ],
     images: [
       {
-        "src": "/assets/imgs/portfolio/1/1.jpg",
+        "src": "/assets/imgs/portfolio/1/project-david-dev-1.png",
         "alt": "Page d'accueil Kally Kurls"
       },
       {
-        "src": "/assets/imgs/portfolio/1/2.jpg",
+        "src": "/assets/imgs/portfolio/1/project-david-dev-2.png",
         "alt": "Page produit Kally Kurls"
       }      
     ],

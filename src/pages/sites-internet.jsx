@@ -59,7 +59,7 @@ const serviceData = {
             id: 1,
             title: "Création",
             content: "Site web sur-mesure adapté à vos objectifs",
-            imageUrl: "/assets/imgs/thumb/mockup_kally_kurls.jpg",
+            imageUrl: "/assets/imgs/thumb/mockup_kallykurls.webp",
             features: [
                 "Personnalisé à vos objectifs",
                 "Expérience utilisateur optimisée",
@@ -71,7 +71,7 @@ const serviceData = {
             id: 2,
             title: "Refonte",
             content: "Modernisation de votre site existant",
-            imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+            imageUrl: "/assets/imgs/thumb/mockup_bienvenue.webp",
             features: [
                 "Modernisation complète",
                 "Amélioration du contenu",
@@ -83,7 +83,7 @@ const serviceData = {
             id: 3,
             title: "Migration",
             content: "Transfert vers une nouvelle plateforme",
-            imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+            imageUrl: "/assets/imgs/thumb/mockup_david.webp",
             features: [
                 "Nouvelle plateforme moderne",
                 "Interruption minimale",
@@ -95,7 +95,7 @@ const serviceData = {
             id: 4,
             title: "Optimisations",
             content: "Optimisation basée sur les données",
-            imageUrl: "/assets/imgs/thumb/mockup_sp_bally.jpg",
+            imageUrl: "/assets/imgs/thumb/mockup_charbon.webp",
             features: [
                 "Analyse comportement utilisateur",
                 "Suivi des performances",
