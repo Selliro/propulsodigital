@@ -120,7 +120,7 @@ const DigitalAgency = () => {
             <i className="fa-solid fa-xmark"></i>
           </span>
           <iframe
-            src="/assets/imgs/testimonial/videos/Célia_Kally_Kurls.mp4"
+            src="/assets/imgs/testimonial/videos/Ceelia_Kally_Kurls.mp4"
             title="Testimonial Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
             allowFullScreen
